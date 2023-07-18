@@ -118,6 +118,9 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     .banner{
         flex-direction: column-reverse;
     }
+    .logo{
+        flex-direction: column;
+    }
     
     
 }
@@ -128,6 +131,9 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     }
     .banner{
         flex-direction: column-reverse;
+    }
+    .logo{
+        flex-direction: column;
     }
     
 }
