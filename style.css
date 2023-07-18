@@ -132,18 +132,16 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 
 
 @media screen and (max-width:576px) {
-    .nav{
+    .nav,
+    .logo,
+    .content-top-title,
+    .feature-product{
         flex-direction: column;
     }
     .banner{
         flex-direction: column-reverse;
     }
-    .logo{
-        flex-direction: column;
-    }
-    .content-top-title{
-        flex-direction: column;
-    }
+    
     .content-section{
         grid-template-columns: repeat(1,1fr);
 
@@ -153,18 +151,17 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
-    .nav{
+    .nav,
+    .logo,
+    .content-top-title,
+    .feature-product{
         flex-direction: column;
     }
+    
     .banner{
         flex-direction: column-reverse;
     }
-    .logo{
-        flex-direction: column;
-    }
-    .content-top-title{
-        flex-direction: column;
-    }
+    
     .content-section{
         grid-template-columns: repeat(1,1fr);
 
