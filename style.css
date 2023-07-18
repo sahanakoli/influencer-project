@@ -108,6 +108,26 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     font-weight: 700;
     letter-spacing: 0.252px;
     padding-left: 14px;
+    padding-bottom: 16px;
+}
+.feature-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+.product-title{
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+
+}
+.product-description{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
+
 }
 
 
